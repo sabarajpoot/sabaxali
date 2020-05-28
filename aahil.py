@@ -55,8 +55,8 @@ logo = """
 \033[1;93m    | (__| | (_) | | | |___) | |   
 \033[1;93m     \___|_|\___/|_| |_|____/|_|   
 \033[1;93m🔥╭╬──────────────────────────────────╬╮🔥
-\033[0;94m  ⚡ ✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗 ✪ 𝕸𝖗.𝕽𝖆𝖓𝖆 𝕬𝖆𝖍𝖎𝖑   ✬⚡
-\033[0;94m  ⚡ ✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 ✪ Aahil Creations ✬⚡
+\033[0;94m  ⚡ ✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗 ✪ .𝕬𝕷𝕴 𝕳𝕬𝕾𝕬𝕬𝕹 𝕸𝖀𝕲𝕳𝕬𝕷   ✬⚡
+\033[0;94m  ⚡ ✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 ✪ Ali Creations ✬⚡
 \033[0;93m  ⚡ ✯ 𝕴𝖒 𝖓ø𝖙 𝖗𝖊𝖘𝖕𝖔𝖓𝖘𝖎𝖇𝖑𝖊 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖒𝖎𝖘𝖘 𝖚𝖘𝖊 ✬⚡
 \033[1;93m🔥╰╬──────────────────────────────────╬╯🔥 """
                                                 
@@ -80,8 +80,8 @@ print  """
 \033[1;97m """ 
 
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "ali"
+CorrectPassword = "Hassan"
 
 loop = 'true'
 while (loop == 'true'):
@@ -89,15 +89,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97m🗝 \x1b[1;96mENTER Password \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:ALI_hacker
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://m.youtube.com/channel/UCkPD5tsXva1jSXUC0Qg48JA')
     else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://m.youtube.com/channel/UCkPD5tsXva1jSXUC0Qg48JA')
 
 def login():
 	os.system('clear')
@@ -191,7 +191,7 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;36;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;41mHack The World"	
-	print "\033[1;32;40m[2] \033[1;33;42mUpdate Aahil"																														
+	print "\033[1;32;40m[2] \033[1;33;42mUpdate AliHassan"																														
 	print "\033[1;32;40m[0] \033[1;33;43mLog out"
 	pilih()
 	
@@ -205,7 +205,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print " \033[1;36;40m●════════════════════════◄►════════════════════════●\n"
+		print " \033[1;36;40m●═══════════ALI═════════════◄►════════════SABA════════════●\n"
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
