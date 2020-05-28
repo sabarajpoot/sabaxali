@@ -430,7 +430,7 @@ def pilih_super():
 : \033[1;96m .....Ali  Creations........... \033[1;93m :
 ♡──────────────•◈•──────────────♡.' 
                 whatsapp Num
-               +03180072179 """
+               NAI DENA """
 	
 	raw_input("\n\033[1;92m[\033[1;94mBack\033[1;96m]")
 	menu()
